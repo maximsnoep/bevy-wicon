@@ -1,6 +1,6 @@
 [![Crates.io](https://img.shields.io/crates/v/bevy_wicon)](https://crates.io/crates/bevy_wicon)
 
-# Bevy Wicon
+# bevy-wicon
 
 The window icon on Windows (title bar, taskbar and Alt+Tab) for [Bevy](https://bevyengine.org), from one PNG image built
 into your program. (On Linux with X11, the title bar too; other platforms ignore it.)
