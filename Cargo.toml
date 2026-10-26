@@ -1,0 +1,14 @@
+[package]
+name = "bevy-wicon"
+description = "The window icon on Windows for Bevy."
+version = "0.20.0"
+repository = "https://github.com/maximsnoep/bevy-wicon"
+authors = ["Snoep <maxim@snoep.io>"]
+keywords = ["bevy", "icon", "window", "plugin"]
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+bevy = { version = "0.20.0", default-features = false, features = ["bevy_pbr", "bevy_winit"] }
+image = { version = "0.25.6", default-features = false, features = ["png"] }
+winit = { version = "0.30", default-features = false }
